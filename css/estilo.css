@@ -1,0 +1,78 @@
+*{
+    /*/font-weight: bolder/*/
+      font-family: monospace;
+      color:#152726;
+      background-color: #A8C7D6;
+    }
+    
+    
+    #divGeralContainer{
+      position: relative;
+     height:200vh; 
+    }
+    
+    #divGeralElementos{
+      
+      
+      position: relative;
+      top: 0;
+      left: 30%;
+      margin-right:20%;
+      
+      
+    }
+    
+    img 
+    {
+    width: 45%;  
+      height:85%;
+      margin-left: 2%;
+    }
+    
+    #trocadordetela{
+        width: 30%;
+        height: 70px;
+        font: normal 20pt;
+        font-weight: bold;
+    
+    
+    }
+    
+    #selecaoDeTela{
+      
+      width: 40%;
+        height: 70px;
+        font: normal 20pt;
+        font-weight: bold;
+      
+    }
+    
+    /*/ DAQUI /*/
+    p 
+    {
+    text-indent: 5%;
+    }
+    .espacamentocuriosojscript{
+      text-indent:2%;
+      
+    }
+    
+    .estagiariovkngs{
+      
+      text-indent:51%;
+      
+    }
+    /*/ATÉ AQUI é só lance pra poder dar espaçamento na texto da caixa/*/
+    
+    
+    /*/ tentar meter um copia e cola aqui pros divs que eu fiz da caixa /*/
+    
+    .caixa { width: 40%; }
+    .caixaborda { border: 2px solid #E6E6E6; border-bottom: none; margin-left: 2px; height: 7px; width: 323px; }
+    .caixaconteudo { 
+      border-top: 7px solid #152726;
+      border-left: 7px solid #152726; border-right: 7px solid #152726; border-bottom: 7px solid #152726; height: 45%%; padding: 5px 0; }
+    
+    /*/aqui é tentativa de copia e cola pras divs do avatar/*/
+    
+    

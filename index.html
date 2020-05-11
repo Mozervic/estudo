@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A m a n o j a k u</title>
+  <link rel="stylesheet" href="./css/estilo.css">
+</head>
+<body>
+
+  <div id = "divGeralContainer">
+    <div id = "divGeralElementos">
+    
+    <title>a m a n o j a k u</title>
+        <h1>A m a n o j a k u</h1>
+    
+    
+    
+      <!-- aqui eu pus a imagem que eu upei pra avatar e fiz o alinhamento com o texto descritivo ao lado -->
+      <div class = "caixa">
+        <!--aqui eu to criando as divs pra eu chamar no CSS primeira a DIV da caixa -->
+        <div class = "caixabordas">
+    <!-- aqui eu to criando a DIV para as bordas da caixa -->
+          <div class = "caixaconteudo">
+            <!-- aqui eu criei uma DIV para o conteúdo da caixa-->
+    
+          <img src = "https://66.media.tumblr.com/2222126f03f6242d5199363e4f5beaf1/tumblr_oov62wlLsb1sbd8kao1_400.gif"align = "left" >
+            
+    <b>
+      <p>- Estudante de Educação Física (UFRJ)</p>
+      <p>- Estagiário em Vikings Treinamento Integrado</p>
+     <p>- Treinador na Empresa Crocodillo Fitness</p>
+     
+      <p class = "espacamentocuriosojscript">&nbsp&nbsp- Curioso em Javascript  e C#</p>
+      
+      <!-- Coloquei essa porrada de &nbsp para poder dar espaçamento no "Curioso em Javascript e C#" pq não consegui espaçar nem no css-->
+    
+            </li>
+        </div>
+    </div>
+    </div>
+    
+          <!-- aqui eu to fechando as DIVs-->
+    
+      
+      <!--Coloquei esse bloco das informações adicionais na DIV
+    pra poder chegar lá em baixo e sumir quando for aparecer
+    a outra tela-->
+      <div id = "infadicionais">
+    <h2>IDIOMAS</h2>
+    <!--aqui eu fiz as listinhas usando <li> e fiz o espaçamento usando <ul> -->
+    
+    
+     <ul>
+      <li>Português (Fluente)</li>
+      <li>Inglês (Avançado)</li>
+      <li>Guarani (Curioso)</li>
+      </ul>
+    
+    <h2>LINGUAGENS</h2>
+    <ul>
+    <li>JavaScript (Básico)</li>
+    <li>C# (Básico)</li>
+    </ul>
+    <h2>CURSOS</h2>
+    <ul>
+        <li>Ensino Superior Incompleto</li>
+        <li>Ensino Médio Técnico em C#</li>
+      <li>Quarentena Dev</li>
+      </div>
+    
+    <!---aqui vai abrir a segunda tela pra eu poder selecioanr qual projeto desejo visualizar--->
+     <div id = "telaEscolha">
+       <div id = "escolhedores">
+       <input name = "btrd" type = "radio" id = "botaoPalavras">
+       <label for = "botaoPalavras">Contador de Palavras</label> <br>
+       <input name = "btrd" type = "radio" id = "botaoDias">
+       <label for = "botaoDias">Contador de Dias de Vida</label> <br>
+       <input name = "btrd" type = "radio" id = "botaoUBER">
+       <label for = "botaoUBER">Aplicativo Gratuidade UBER</label><br>
+       </div>
+       <!---aqui já é a tela do contador de palavras repetidas---->
+       
+       <div id = "telaContaPalavras">
+            <h1>Contador de Palavras Repetidas</h1>
+            <p>Digite seu texto:</p> 
+          (Recomenda-se um texto de ao menos 100 palavras)
+            <input id="txtbox" type="text">
+            <input id="contapalavra" type="button" value = "Contar..." onclick="contarpalavras()"> 
+            <div id = "textoinformado"></div>
+          <div id = "palavrasdivididas"></div>
+        </div>
+       
+       <!---aqui já é a tela do contador de palavras repetidas--->
+      <div id ="telaContaDias">
+        <h1>Contador de Dias de Vida</h1>
+        <p id = "respostaContaDias"></p>
+        <input id="contarDias" type = "button" value = "Quantos dias de vida vc tem?" onclick = "contouDias()">
+      </div>
+    
+    </div>
+    
+      </div>
+        <input id = "selecaoDeTela" type = "button" value="Selecionar" onClick = "selecionouTela()">
+        <input id="trocadordetela" type="button" value="Ver Mais" onCLick ="trocartela()">
+    
+    </div>
+    </div>
+    
+    
+    <p class="msgfinal">nunca tinha manuseado css antes</p>
+    <!---aqui já é a tela da calculadora de gratuidade da UBER--->
+    
+  <script src="script.js"></script>
+</body>
+</html>
